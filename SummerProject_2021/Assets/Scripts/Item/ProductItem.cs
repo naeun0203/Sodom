@@ -5,7 +5,16 @@ using UnityEngine;
 public class ProductItem : MonoBehaviour
 {
     public GameObject ProduceButton;
-    public bool Product = false;
+    private bool product;
+    public bool Product
+    {
+        get { return product; }
+        set
+        {
+            product = value;
+            if(product) { this.gameObject.GetComponent<SpriteRenderer>().sprite = itemData.itemDB[item.ID-1].ItemImage; }
+        }
+    }
     private bool useItem;
     public bool UseItem
     {
@@ -22,6 +31,7 @@ public class ProductItem : MonoBehaviour
     private GameObject bonfire;
     private float distance;
     private GameObject Player;
+    private DBManagerItem itemData;
     private void Start()
     {
         item = this.gameObject.GetComponent<Item>();
@@ -29,6 +39,7 @@ public class ProductItem : MonoBehaviour
         box = GameObject.Find("MainUI").transform.Find("Box").gameObject;
         bonfire = GameObject.Find("MainUI").transform.Find("Bonfire").gameObject;
         Player = GameObject.FindWithTag("Player");
+        itemData = GameObject.FindGameObjectWithTag("Manager").GetComponent<DBManagerItem>();
     }
     private void Update()
     {

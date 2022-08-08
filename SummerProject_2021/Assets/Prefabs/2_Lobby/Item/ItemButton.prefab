@@ -137,7 +137,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ButtonImage: {fileID: 6052219424008413355}
   ProduceButtonImage: {fileID: 21300000, guid: ab599f4889aa7514fb315b9f32f349af, type: 3}
-  UseButtonImage: {fileID: 21300000, guid: a6a66b1b6fc33624f8d13aae62780b84, type: 3}
+  UseButtonImage: {fileID: 21300000, guid: e7e23cd736b9ac3408b039457b1373b6, type: 3}
 --- !u!82 &8837815502257455819
 AudioSource:
   m_ObjectHideFlags: 0

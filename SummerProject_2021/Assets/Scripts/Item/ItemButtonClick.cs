@@ -30,6 +30,7 @@ public class ItemButtonClick : MonoBehaviour
         else
         {
             product.UseItem = true;
+            SetImage();
         }
     }
     public void SetImage()

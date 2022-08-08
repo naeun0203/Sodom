@@ -23,7 +23,7 @@ public class Item : MonoBehaviour
     #endregion
     private SurvivalGauge survivalGauge;
     private CharacterValue playerValue;
-    private ItemSlot itemslot;
+    //private ItemSlot itemslot;
 
     private bool itemDBloading = false;
     private bool craftloading = false;
@@ -33,7 +33,7 @@ public class Item : MonoBehaviour
         survivalGauge = GameObject.FindGameObjectWithTag("Player").GetComponent<SurvivalGauge>();
         playerValue = GameObject.FindGameObjectWithTag("Player").GetComponent<CharacterValue>();
         itemData = GameObject.FindGameObjectWithTag("Manager").GetComponent<DBManagerItem>();
-        itemslot = GameObject.Find("ItemSlot").GetComponent<ItemSlot>();
+        //itemslot = GameObject.Find("ItemSlot").GetComponent<ItemSlot>();
 
     }
     void Update()
@@ -112,14 +112,14 @@ public class Item : MonoBehaviour
                 playerValue.Atk_PowChanged(-itemData.itemDB[index].AD);
                 playerValue.Atk_RangeChanged(-itemData.itemDB[index].Attack_Range);
                 ItemEquip = false;
-                itemslot.DeleteImage();
+                //itemslot.DeleteImage();
             }
             else if (ItemEquip == false)
             {
                 playerValue.Atk_PowChanged(itemData.itemDB[index].AD);
                 playerValue.Atk_RangeChanged(itemData.itemDB[index].Attack_Range);
                 ItemEquip = true;
-                itemslot.SetImage(ID);
+                //itemslot.SetImage(ID);
             }
         }
         useItem = false;
