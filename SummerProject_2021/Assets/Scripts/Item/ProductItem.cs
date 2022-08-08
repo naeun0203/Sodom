@@ -6,7 +6,16 @@ public class ProductItem : MonoBehaviour
 {
     public GameObject ProduceButton;
     public bool Product = false;
-    public bool UseItem = false;
+    private bool useItem;
+    public bool UseItem
+    {
+        get { return useItem; }
+        set 
+        { 
+            useItem = value;
+            if(useItem) { StartCoroutine(CheckItem()); }
+        }
+    }
     private Item item;
     private ItemCraft Water;
     private GameObject box;
@@ -23,10 +32,6 @@ public class ProductItem : MonoBehaviour
     }
     private void Update()
     {
-        if(UseItem)
-        {
-            StartCoroutine(CheckItem());
-        }
         distance = Vector2.Distance(Player.transform.position, transform.position);
         if (distance < 200)
         {
