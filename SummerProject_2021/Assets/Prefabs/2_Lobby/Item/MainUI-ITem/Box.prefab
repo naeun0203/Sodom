@@ -106,6 +106,7 @@ MonoBehaviour:
   CurrentCapacity: 0
   useItem: 0
   ItemEquip: 0
+  ItemText: {fileID: 6755396157939492988}
 --- !u!114 &7485485567298578817
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -344,7 +345,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uBB3C\n"
+  m_Text: "\uBB3C X\n"
 --- !u!1 &533113755608826400
 GameObject:
   m_ObjectHideFlags: 0
@@ -451,6 +452,7 @@ MonoBehaviour:
   CurrentCapacity: 0
   useItem: 0
   ItemEquip: 0
+  ItemText: {fileID: 2628442865808890681}
 --- !u!114 &1738999624987043665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -570,6 +572,7 @@ MonoBehaviour:
   CurrentCapacity: 0
   useItem: 0
   ItemEquip: 0
+  ItemText: {fileID: 7464394693659143653}
 --- !u!114 &3569552563974114952
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -693,6 +696,7 @@ MonoBehaviour:
   CurrentCapacity: 0
   useItem: 0
   ItemEquip: 0
+  ItemText: {fileID: 7279837708297995489}
 --- !u!1 &1200704820817048202
 GameObject:
   m_ObjectHideFlags: 0
@@ -799,6 +803,7 @@ MonoBehaviour:
   CurrentCapacity: 0
   useItem: 0
   ItemEquip: 0
+  ItemText: {fileID: 6385771664128613213}
 --- !u!114 &7708147584360486625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -968,7 +973,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uCC9C"
+  m_Text: "\uCC9C X"
 --- !u!1 &1366561692668655985
 GameObject:
   m_ObjectHideFlags: 0
@@ -1047,7 +1052,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uB3CC\n"
+  m_Text: "\uB3CC X\n"
 --- !u!1 &1873145880722077795
 GameObject:
   m_ObjectHideFlags: 0
@@ -1322,6 +1327,7 @@ MonoBehaviour:
   CurrentCapacity: 0
   useItem: 0
   ItemEquip: 0
+  ItemText: {fileID: 5307862899612854902}
 --- !u!114 &4258957640887177953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1455,6 +1461,7 @@ MonoBehaviour:
   CurrentCapacity: 0
   useItem: 0
   ItemEquip: 0
+  ItemText: {fileID: 7073816687372711012}
 --- !u!114 &1485771028790980685
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1574,6 +1581,7 @@ MonoBehaviour:
   CurrentCapacity: 0
   useItem: 0
   ItemEquip: 0
+  ItemText: {fileID: 2182274814014065023}
 --- !u!114 &3962995412828056688
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1697,6 +1705,7 @@ MonoBehaviour:
   CurrentCapacity: 0
   useItem: 0
   ItemEquip: 0
+  ItemText: {fileID: 6322197934447378384}
 --- !u!1 &3393389601444295619
 GameObject:
   m_ObjectHideFlags: 0
@@ -1804,6 +1813,7 @@ MonoBehaviour:
   CurrentCapacity: 0
   useItem: 0
   ItemEquip: 0
+  ItemText: {fileID: 5679162965288020189}
 --- !u!114 &127544161098062147
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1997,7 +2007,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uC57C\uCC44 \uC2A4\uD504"
+  m_Text: "\uC57C\uCC44 \uC2A4\uD504 X"
 --- !u!1 &4069993626085086503
 GameObject:
   m_ObjectHideFlags: 0
@@ -2104,6 +2114,7 @@ MonoBehaviour:
   CurrentCapacity: 0
   useItem: 0
   ItemEquip: 0
+  ItemText: {fileID: 0}
 --- !u!114 &6080526673032225833
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2310,6 +2321,7 @@ MonoBehaviour:
   CurrentCapacity: 0
   useItem: 0
   ItemEquip: 0
+  ItemText: {fileID: 4734934948632242225}
 --- !u!114 &9057438451547921766
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2400,7 +2412,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uB354\uB7EC\uC6B4 \uBB3C"
+  m_Text: "\uB354\uB7EC\uC6B4 \uBB3C X"
 --- !u!1 &4589912645049491931
 GameObject:
   m_ObjectHideFlags: 0
@@ -2507,6 +2519,7 @@ MonoBehaviour:
   CurrentCapacity: 0
   useItem: 0
   ItemEquip: 0
+  ItemText: {fileID: 2091751467291092187}
 --- !u!114 &4916803399805451396
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2685,7 +2698,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uC54C\uC57D"
+  m_Text: "\uC54C\uC57D X"
 --- !u!1 &5967097492512728291
 GameObject:
   m_ObjectHideFlags: 0
@@ -2808,7 +2821,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uB2E8\uB3C4"
+  m_Text: "\uB2E8\uB3C4 X"
 --- !u!1 &6354797048184479454
 GameObject:
   m_ObjectHideFlags: 0
@@ -3035,7 +3048,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uC1E0\uC9C0\uB81B\uB300"
+  m_Text: "\uC1E0\uC9C0\uB81B\uB300 X"
 --- !u!1 &6499172626617151797
 GameObject:
   m_ObjectHideFlags: 0
@@ -3232,7 +3245,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uB2E8\uB3C4"
+  m_Text: "\uB2E8\uB3C4 X"
 --- !u!1 &6840969846351804230
 GameObject:
   m_ObjectHideFlags: 0
@@ -3339,6 +3352,7 @@ MonoBehaviour:
   CurrentCapacity: 0
   useItem: 0
   ItemEquip: 0
+  ItemText: {fileID: 4961224791924681763}
 --- !u!114 &3138736924536561918
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3544,7 +3558,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uCCA0\n"
+  m_Text: "\uCCA0 X\n"
 --- !u!1 &7227796330461559167
 GameObject:
   m_ObjectHideFlags: 0
@@ -3701,6 +3715,7 @@ MonoBehaviour:
   CurrentCapacity: 0
   useItem: 0
   ItemEquip: 0
+  ItemText: {fileID: 0}
 --- !u!1 &7279837708297995491
 GameObject:
   m_ObjectHideFlags: 0
@@ -3779,7 +3794,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uB098\uBB34"
+  m_Text: "\uB098\uBB34 X"
 --- !u!1 &7279837708531648079
 GameObject:
   m_ObjectHideFlags: 0
@@ -4082,7 +4097,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uC57C\uCC44"
+  m_Text: "\uC57C\uCC44 X"
 --- !u!1 &7714557572681540299
 GameObject:
   m_ObjectHideFlags: 0
@@ -4205,7 +4220,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uAC00\uBC29"
+  m_Text: "\uAC00\uBC29 X"
 --- !u!1 &8577702460658505992
 GameObject:
   m_ObjectHideFlags: 0
@@ -4302,6 +4317,7 @@ MonoBehaviour:
   CurrentCapacity: 0
   useItem: 0
   ItemEquip: 0
+  ItemText: {fileID: 9030330393728247894}
 --- !u!1 &8589129337460580913
 GameObject:
   m_ObjectHideFlags: 0
@@ -4408,6 +4424,7 @@ MonoBehaviour:
   CurrentCapacity: 0
   useItem: 0
   ItemEquip: 0
+  ItemText: {fileID: 8589129338919257681}
 --- !u!114 &5984285555152797727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4527,6 +4544,7 @@ MonoBehaviour:
   CurrentCapacity: 0
   useItem: 0
   ItemEquip: 0
+  ItemText: {fileID: 8589129338430138554}
 --- !u!114 &8428395477526716755
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4632,7 +4650,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uC0BD"
+  m_Text: "\uC0BD X"
 --- !u!1 &8589129338919257683
 GameObject:
   m_ObjectHideFlags: 0
@@ -4711,7 +4729,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uACE0\uAE30"
+  m_Text: "\uACE0\uAE30 X"
 --- !u!1 &8700483067312984615
 GameObject:
   m_ObjectHideFlags: 0
@@ -4790,7 +4808,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uC0C1\uD55C \uC74C\uC2DD"
+  m_Text: "\uC0C1\uD55C \uC74C\uC2DD X"
 --- !u!1 &8836730512827370831
 GameObject:
   m_ObjectHideFlags: 0
@@ -4869,7 +4887,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uACE0\uAE30 \uBCF6\uC74C"
+  m_Text: "\uACE0\uAE30 \uBCF6\uC74C X"
 --- !u!1 &8967994768224483566
 GameObject:
   m_ObjectHideFlags: 0
@@ -4948,7 +4966,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uBD95\uB300"
+  m_Text: "\uBD95\uB300 X"
 --- !u!1 &9046456974240304485
 GameObject:
   m_ObjectHideFlags: 0
@@ -5045,3 +5063,4 @@ MonoBehaviour:
   CurrentCapacity: 0
   useItem: 0
   ItemEquip: 0
+  ItemText: {fileID: 1941603714970836347}

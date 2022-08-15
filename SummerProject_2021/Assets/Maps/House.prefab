@@ -4399,6 +4399,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7123847437930472672}
     m_Modifications:
+    - target: {fileID: 2811554443569966467, guid: 284eb0d3f04d94548928f3a77ecf0398, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e7e23cd736b9ac3408b039457b1373b6, type: 3}
     - target: {fileID: 2903038318026406769, guid: 284eb0d3f04d94548928f3a77ecf0398, type: 3}
       propertyPath: m_Name
       value: Box

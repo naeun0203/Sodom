@@ -23,11 +23,13 @@ public class Item : MonoBehaviour
     #endregion
     private SurvivalGauge survivalGauge;
     private CharacterValue playerValue;
+    [SerializeField]
+    private Text ItemText;
     //private ItemSlot itemslot;
 
     private bool itemDBloading = false;
     private bool craftloading = false;
-
+    
     void Start()
     {
         survivalGauge = GameObject.FindGameObjectWithTag("Player").GetComponent<SurvivalGauge>();
@@ -46,6 +48,10 @@ public class Item : MonoBehaviour
         {
             DataSet();
         }
+    }
+    private void OnEnable()
+    {
+        DataSet();
     }
     protected void DataSet()
     {
@@ -70,12 +76,21 @@ public class Item : MonoBehaviour
             }
         }
         SetImage(index);
-        if(this.gameObject.GetComponent<ItemText>() != null)
+        SetText(itemData.itemDB[index].ItemCount);
+        if (this.gameObject.GetComponent<ItemText>() != null)
         {
             this.gameObject.GetComponent<ItemText>().SetText();
         }
     }
-    public void SetImage(int num)
+    public void SetText(int count)
+    {
+        if(ItemText != null)
+        {
+            string[] words = ItemText.text.Split('X');
+            ItemText.text = words[0] + "X" + count;
+        }
+    }
+    public void SetImage(int index)
     {
         if(this.gameObject.GetComponent<Image>() != null)
         {
